@@ -1,0 +1,19 @@
+
+<div class="zippy">
+  <div class="zippy-heading"
+      [class.zippy-toggled]="isToggled"
+      (click)="toggle()"
+  >
+    {{ title }}
+
+    <span class="fas"
+          [ngClass]="{
+            'fa-angle-down': !isToggled,
+            'fa-angle-up': isToggled
+          }"
+    ></span>
+  </div>
+  <div *ngIf="isToggled" class="zippy-body">
+    <ng-content></ng-content>
+  </div>
+</div>

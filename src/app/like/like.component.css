@@ -1,0 +1,9 @@
+
+span{
+    cursor: pointer;    
+    color: #ccc;
+}
+
+.isLiked{
+    color: deeppink;
+}

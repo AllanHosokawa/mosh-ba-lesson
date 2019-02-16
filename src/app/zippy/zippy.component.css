@@ -1,0 +1,21 @@
+
+.zippy{
+    border: 1px solid black;
+}
+
+.zippy-heading{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.zippy-heading span{
+    float: right;
+}
+
+.zippy-body{
+    padding: 10px;
+}
+
+.zippy-toggled{
+    background-color: darkgray;
+}
